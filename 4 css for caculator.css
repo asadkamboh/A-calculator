@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #607D8B;
+}
+
+h1 {
+    color: black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(35, 27, 34);
+    background-color: black;
+    border-radius: 12px;
+    padding: 8px 6px;
+    margin: 3px 30rem;
+}
+
+
+.screen-wrapper {
+    width: 100%;
+}
+
+.screen {
+    /* background-color: rgb(120, 120, 121); */
+    width: 100%;
+    height: 65px;
+    border-radius: 12px;
+    color: black;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#btn {
+    margin: 14px;
+}
+
+.row {
+    display: flex;
+    margin: 3px 6px;
+    padding: 1px 0px;
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    padding: 9px 9px;
+    margin: 1px 5px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-radius: 12px;
+    font-size: 1.5rem;
+
+
+
+}
+
+button:hover {
+
+    background-color: yellow;
+    color: grey;
+    border-radius: 6px;
+
+
+}
+
+#close {
+    color: rgb(11, 226, 65);
+    font-size: 2rem;
+
+}
+
+#deButton {
+    color: rgb(11, 226, 65);
+    font-size: 2rem;
+}
+
+#close:hover {
+    color: red;
+
+}
+
+#deButton:hover {
+    color: red;
+
+}
