@@ -75,8 +75,10 @@ button {
 button:hover {
 
     background-color: yellow;
-    color: grey;
-    border-radius: 6px;
+    color: black;
+    border-radius: 12px;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out ;
 
 
 }
@@ -93,11 +95,13 @@ button:hover {
 }
 
 #close:hover {
-    color: red;
+    color: white;
+    background-color: red;
 
 }
 
 #deButton:hover {
-    color: red;
+    color: white;
+    background-color: blue;
 
 }
