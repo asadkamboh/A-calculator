@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #607D8B;
+    background-color: #9b79d2;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     border: 2px solid rgb(35, 27, 34);
-    background-color: black;
+    background-color: #03A9F4;
     border-radius: 12px;
     padding: 8px 6px;
     margin: 3px 30rem;
@@ -37,7 +37,7 @@ h1 {
 }
 
 .screen {
-    /* background-color: rgb(120, 120, 121); */
+    
     width: 100%;
     height: 65px;
     border-radius: 12px;
@@ -63,9 +63,10 @@ button {
     padding: 9px 9px;
     margin: 1px 5px;
     cursor: pointer;
-    background-color: grey;
+    background-color: #e88d6c;
     color: white;
-    border-radius: 12px;
+    border-color: black black;
+    border-radius: 50px;
     font-size: 1.5rem;
 
 
@@ -74,34 +75,140 @@ button {
 
 button:hover {
 
-    background-color: yellow;
+    background-color: white;
     color: black;
-    border-radius: 12px;
+    border-radius: 50px ;
     transform: scale(1.1);
-    transition: all 1s ease-in-out ;
+    transition: all 0.3s ease-in-out ;
 
-
+    
 }
 
-#close {
-    color: rgb(11, 226, 65);
-    font-size: 2rem;
 
+#close {
+    color: rgb(213, 213, 220);
+    background-color: rgb(18, 6, 244);
+    font-size: 2rem;
+    
 }
 
 #deButton {
-    color: rgb(11, 226, 65);
+    color: white;
+    background-color: #bf13dc;
     font-size: 2rem;
+}
+
+#special_btn {
+    color: rgb(158, 82, 194);
+    background-color: rgb(74, 227, 39);
+    font-size: 2rem;
+}
+
+#equal_btn {
+    color: black;
+    background-color: yellow;
+    font-size: 2rem;
+    
 }
 
 #close:hover {
     color: white;
     background-color: red;
-
+    
 }
 
 #deButton:hover {
+    
     color: white;
-    background-color: blue;
-
+    background-color: red;
 }
+#special_btn:hover {
+    color: white;
+    background-color: black;
+    
+}
+#equal_btn:hover {
+        color: white;
+        background-color: red;
+        
+    }
+
+
+
+    @media (min-width:300px) and (max-width:380px) {
+        #container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #box {
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid rgb(35, 27, 34);
+            background-color: #03A9F4;
+            border-radius: 12px;
+            padding: 6px 4px;
+            margin: 3px 20rem;
+        }
+
+        .row {
+            display: flex;
+            margin: 2px 4px;
+            padding: 1px 0px;
+        }
+        .screen {
+    
+            width: 100%;
+            height: 50px;
+            border-radius: 12px;
+            color: black;
+            padding: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        button {
+            width: 45px;
+            height: 45px;
+            padding: 7px 7px;
+            margin: 1px 3px;
+            cursor: pointer;
+            background-color: #e88d6c;
+            color: white;
+            border-color: black black;
+            border-radius: 50px;
+            font-size: 1.2rem;
+        
+        }
+        #close {
+            color: rgb(213, 213, 220);
+            background-color: rgb(18, 6, 244);
+            font-size: 1.3rem;
+            
+        }
+        
+        #deButton {
+            color: white;
+            background-color: #bf13dc;
+            font-size: 1.3rem;
+        }
+        
+        #special_btn {
+            color: rgb(158, 82, 194);
+            background-color: rgb(74, 227, 39);
+            font-size: 1.3rem;
+        }
+        
+        #equal_btn {
+            color: black;
+            background-color: yellow;
+            font-size: 1.3rem;
+            
+        }
+
+    }
